@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* body{ */
+    /* background-color: #b0ace0; */
+    /* background: rgb(194,185,252);
+    background: linear-gradient(180deg, rgba(194,185,252,1) 28%, rgba(255,255,255,1) 100%);
+} */
+h1{
+    font-weight: 800;
+    font-size: 45px;
+    color: #002872;
+}
+h3{
+    color: #002872;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+}
+ol{
+    margin: 2% 0;
+}
+ol p{
+    font-weight: 500;
+}
+.container{
+    /* height: 60vh; */
+    width: 90%;
+    /* background-color: rgb(149, 126, 255); */
+    background-color: #fff;
+    /* margin: 5% auto; */
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 5px 10px 8px rgb(179, 135, 135);
+}
+
+.inner-padding{
+    padding: 1% 7%;
+}
+
+.df{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    background: rgb(13,0,234);
+    background: linear-gradient(180deg, rgba(13,0,234,1) 28%, rgba(138,138,243,1) 73%, rgba(194,185,252,1) 100%);
+}
+.nav-items{
+    float: right;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav{
+    position: fixed;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    border-radius: 25px;
+    width: 80%;
+    /* height: 7vh; */
+    margin: 0% 8%;
+    padding-top: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Hero-section{
+    height: 70%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 4vw;
+    margin: 5% 10%;
+    
+}
+
+
+.hero-text{
+    padding: 4% 8%;
+    color: #fff;
+}
+.hero-text h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+.hero-text p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1% 4%;
+    background-color: blue;
+    color: #fff;
+    margin: 4% 2%;
+}
+
+/* Feature Section */
+#features{
+    background: rgb(194,185,252);
+    background: linear-gradient(180deg, rgba(194,185,252,1) 28%, rgba(255,255,255,1) 100%);
+}
+.features{
+    width: 85%;
+    margin: 4% 7%;
+}
+.features img{
+    height: 60vh;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.sub-container{
+    background-color: #fff;
+    width: 70%;
+    border-radius: 20px;
+    height: 50%;
+    margin: 2% auto;
+}
+
+.reg-text{
+    width: 50%;
+    padding: 5% 8%;
+}
+.reg-text p{
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.reg-img{
+    border-radius: 25px;
+}
+.reg-img img{
+    height: 100%;
+    width: 90%;
+}
+
+#benifits{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,219,252,1) 100%);
+}
+
+.content-box{
+    height: 35vh;
+    width: 25%;
+    background-color: #e3cdcd;
+    /* border: 1px solid black; */
+    box-shadow: 5px 10px 8px rgb(150, 132, 132);
+    border-radius: 20px;
+    margin: 2% 3%;
+}
+
+.content-box p {
+    padding: 2% 5%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#withdrawl-method{
+    background: rgb(221,219,252);
+    background: linear-gradient(180deg, rgba(221,219,252,1) 0%, rgba(202,199,250,1) 100%);
+    padding: 0 0 4% 0;
+}
+
+.withdrawl-box{
+    display: flex;
+}
+.withdrawl-box ol{
+    padding: 0% 5%;
+}
+
+
+.glass{
+    border-radius: 45px;
+    backdrop-filter: blur(20px) saturate(175%);
+    -webkit-backdrop-filter: blur(20px) saturate(175%);
+    background-color: rgba(17, 25, 40, -0.3 );
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+}
+.glass h1{
+    color: white;
+    padding: 3% 0% 0% 8% ;
+}
+
+.rounded-box{
+    height: 235px;
+    width: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    /* border: 1px solid rgba(202,199,250,1); */
+    box-shadow: 5px 10px 8px rgb(141, 132, 132);
+    border-radius: 50%;
+    margin: 2% 3%;
+    overflow: hidden;
+}
+
+.rounded-box p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.table{
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 5% 0%;
+}
+.table-box{
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 3%;
+}
+
+.circle-container {
+    background: rgb(158,153,246);
+    background: linear-gradient(180deg, rgba(158,153,246,1) 0%, rgba(129,122,244,1) 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20%;
+    padding: 4% 0;
+}
+
+/* Wrapper for each circle and text */
+.circle-wrapper {
+    position: relative;
+    width: 200px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rotating circle */
+.rotating-circle {
+    width: 90%;
+    height: 85%;
+    border-radius: 50%;
+    border: 10px solid linear-gradient(to right, red, purple);
+    border-top: 10px solid #ffffff;
+    /* border-image: conic-gradient(blue, white); */
+    animation: rotate 3s linear infinite;
+}
+
+/* Text in the center */
+.circle-text {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    pointer-events: none; /* Ensure the text is not clickable */
+}
+
+/* Rotation animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.acc-container{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0% 10% 5%;
+    align-items: center;
+    
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #bfcaef;
+}
